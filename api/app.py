@@ -175,7 +175,7 @@ async def chat_rag(request: RAGChatRequest):
         
         # Create system prompt for RAG
         system_prompt = SystemRolePrompt(
-            "You are a helpful AI assistant that answers questions based on the provided document context. "
+            "You are a helpful job interview AI assistant that helps people best prepare for their interviews. "
             "Use only the information from the context to answer questions. "
             "If the answer cannot be found in the context, say so. "
             "Always cite specific parts of the document when possible.\n\n"
