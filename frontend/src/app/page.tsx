@@ -1,5 +1,4 @@
 import Chat from './components/Chat';
-import RAGSystem from './components/RAGSystem';
 
 export default function Home() {
   return (
@@ -11,16 +10,9 @@ export default function Home() {
             <span className="block text-primary">AI Engineer Challenge</span>
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Chat with our AI assistant and upload PDFs for intelligent document Q&A
+            Chat with our AI assistant powered by GPT-4.1-mini
           </p>
         </div>
-        
-        {/* RAG System Section */}
-        <div className="mb-12">
-          <RAGSystem />
-        </div>
-        
-        {/* Regular Chat Section */}
         <div className="mt-8">
           <Chat />
         </div>
